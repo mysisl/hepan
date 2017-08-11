@@ -1,17 +1,17 @@
 <view class="bottomGrayboder toptab" data-c_e_id="wx_view_cb07a842">
     <view class="toptabWrap" data-c_e_id="wx_view_c2045354">
         <view class="active toptabItem" data-c_e_id="_other_text_221e07ff">
-            动态
+            客户动态
         </view>
         <view class="toptabItem" data-c_e_id="_other_text978931bf">
-            消息
+            客户列表
         </view>
     </view>
 </view>
 <view class="wx-view_GSg09R" data-c_e_id="wx_view_fe73d09a">
     <view class="bottomGrayboder listitemWrap" data-c_e_id="wx_view687aaf2e">
         <view class="notifylistitem" data-c_e_id="wx_view_16d0f86f">
-            <navigator class="nav_userlink" data-c_e_id="wx_navigator2ffed891" hover-class="navigator-hover">
+            <navigator class="nav_userlink" data-c_e_id="wx_navigator2ffed891" hover-class="navigator-hover" url="../detail/detail">
                 <view class="likeuser" data-c_e_id="wx_viewd34d457a">
                     <image class="useravatar" data-c_e_id="wx_image48c93c0f" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg); "/>
                 </view>

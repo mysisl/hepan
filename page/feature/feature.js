@@ -10,7 +10,7 @@ Page({
   /**
    * 页面名称
    */
-  name: "feature1",
+  name: "feature",
   /**
    * 页面的初始数据
    */

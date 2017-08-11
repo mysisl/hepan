@@ -3,15 +3,15 @@
   "window": {
     "navigationBarTextStyle": "black", 
     "navigationBarBackgroundColor": "#ebebeb", 
-    "navigationBarTitleText": "何.攀", 
+    "navigationBarTitleText": "云.荐", 
     "backgroundColor": "#bdbdbd", 
     "enablePullDownRefresh": true, 
     "backgroundTextStyle": "dark"
   }, 
   "pages": [
+    "page/notify/notify",
     "page/feature/feature", 
     "page/discover/discover", 
-    "page/notify/notify", 
     "page/profile/profile", 
     "page/detail/detail", 
     "page/baseStyle/baseStyle"
@@ -22,23 +22,21 @@
     "borderStyle": "black", 
     "list": [
       {
-        "text": "发现",
-        "pagePath": "page/feature/feature",
+        "text": "客户",
+        "pagePath": "page/notify/notify",
         "iconPath": "resources/9ed52ecc6de7058a799290b08296230a.png",
         "selectedIconPath": "resources/1c95a1701b58f4dc4d5f768d6f148714.png"
       },
-      
-      
       {
-        "text": "收藏", 
+        "text": "仓库", 
         "pagePath": "page/discover/discover", 
         "iconPath": "resources/e12860cb450a4c012c47ac95c933fb3a.png", 
         "selectedIconPath": "resources/f78f9afcd0b4998bdfc816203bb4c6dd.png"
       }, 
       
       {
-        "text": "通知", 
-        "pagePath": "page/notify/notify", 
+        "text": "沟通", 
+        "pagePath": "page/feature/feature", 
         "iconPath": "resources/9a68600a4eeb9fb2b9173d901e704971.png", 
         "selectedIconPath": "resources/1f2fab45b574b53079a632db488cf240.png"
       }, 
