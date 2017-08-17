@@ -1,24 +1,21 @@
-<view class="bottomGrayboder toptab" data-c_e_id="wx_view_cb07a842">
-    <view class="toptabWrap" data-c_e_id="wx_view_c2045354">
-        <view class="active toptabItem" data-c_e_id="_other_text_221e07ff">
-            客户动态
-        </view>
-        <view class="toptabItem" data-c_e_id="_other_text978931bf">
-            客户列表
+<view class="bottomGrayboder" data-c_e_id="wx_view_cb07a842">
+    <view class="toptabWrap toptab" data-c_e_id="wx_view_c2045354">
+        <view wx:for="{{navTab}}" wx:for-index="index" wx:for-item="itemValue" data-idx="{{index}}" class="top-tab {{currentNavtab==index ? 'active' : ''}}" bindtap="switchTab">
+            {{itemValue}}
         </view>
     </view>
 </view>
-<view class="wx-view_GSg09R" data-c_e_id="wx_view_fe73d09a">
+<view hidden="{{currentNavtab!==0}}" class="wx-view_GSg09R" data-c_e_id="wx_view_fe73d09a">
     <view class="bottomGrayboder listitemWrap" data-c_e_id="wx_view687aaf2e">
         <view class="notifylistitem" data-c_e_id="wx_view_16d0f86f">
-            <navigator class="nav_userlink" data-c_e_id="wx_navigator2ffed891" hover-class="navigator-hover" url="../detail/detail">
+            <navigator class="nav_userlink" data-c_e_id="wx_navigator2ffed891" hover-class="navigator-hover" url="../feature/feature">
                 <view class="likeuser" data-c_e_id="wx_viewd34d457a">
                     <image class="useravatar" data-c_e_id="wx_image48c93c0f" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg); "/>
                 </view>
             </navigator>
             <view class="wx-view_WnUrtw2" data-c_e_id="wx_view_66505bdf">
                 <view class="wx-view_F9ISUC2" data-c_e_id="wx_view27217bec">
-                    <navigator class="wx-navigator_wTcTS2" data-c_e_id="wx_navigator70eae9f8" hover-class="navigator-hover">
+                    <navigator class="wx-navigator_wTcTS2" data-c_e_id="wx_navigator70eae9f8" hover-class="navigator-hover" url="../feature/feature">
                         <text class="wx-text_71u3gA2" data-c_e_id="wx_text5fe6919d">木芽</text>
                     </navigator>
                     <text class="wx-text_kGXxsa2" data-c_e_id="wx_texta38253c0">喜爱了一件商品</text>
@@ -177,4 +174,23 @@
             </navigator>
         </view>
     </view>
+</view>
+
+
+<view hidden="{{currentNavtab!==1}}" class="wx-view_GSg09R" >
+<scroll-view    lower-threshold="20" scroll-y="True" style="overflow-x: hidden; overflow-y: auto; " upper-threshold="20">
+<view class="carditemWrap carditem" wx:for="{{accountList}}" wx:for-index="idx" wx:for-item="account" >
+              <navigator class="wx-navigator_rv4BGW justrow"  hover-class="navigator-hover" url="../feature/feature">
+                  <view class="justrow">
+                    <image class="wx-image_tBcdCT"  mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg); "/>
+                    <view class="wx-view_cPj0ok" >
+                        <text class="c-block wx-text_TvHPc9" >{{account.name}}</text>
+                        <text class="c-block wx-text_LS2Jup" >{{account.desc}}</text>
+                    </view>
+                  </view>
+                  <text class="c-block wx-text_LS2Jup" >{{ (account.distance + idx)/2 }} 公里</text>
+              </navigator>
+</view>
+
+</scroll-view>
 </view>

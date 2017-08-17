@@ -16,9 +16,37 @@ Page({
    */
 
   data: {
-    
+    navTab: ["客户动态", "客户列表",],
+    currentNavtab: "0",
+    accountList:[{name:"Angel",desc:"Test Description",distance:1.5},
+    {name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+    { name: "Angel", desc: "Test Description", distance: 1.5 },
+
+    ,]
   
-  
+  },
+
+
+  switchTab: function (e) {
+    this.setData({
+      currentNavtab: e.currentTarget.dataset.idx
+    });
   },
 
   /**

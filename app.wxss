@@ -63,10 +63,8 @@ radio-group{
 
 
 
-.toptab{padding-bottom: 5px; z-index: 2; padding-top: 5px; top: 0px; width: 100%; background-color: rgba(255, 255, 255, 0.933333); flex: 0 0 auto; position: fixed; }
-.toptabWrap{display: flex; justify-content: space-around; align-items: center; font-size: 16px; line-height: 2em; }
-.toptabItem{color: rgb(117, 117, 117); line-height: 1.7em; font-size: 16px; }
-.toptabItem.active{border-bottom-width: 2px; border-bottom-style: solid; color: #000000; }
+.toptab{background: #ffffff;  z-index: 2; padding-top: 3px; top: 0px; width: 100%;  flex: 0 0 auto; position: fixed; border-top-color: gainsboro;}
+.toptabWrap{background: #ffffff; display: flex; justify-content: space-around; align-items: center; font-size: 16px; line-height: 2em; }
 .bottomGrayboder{border-bottom: 1px solid rgb(237, 237, 237); border-bottom-color: rgba(237,237,237,1); }
 .wx-text_P3cI8S{text-align: center; padding-top: 24px; }
 .listWrapscroll-view{padding-bottom: 30px; padding-top: 46px; height: 100%; }

@@ -1,24 +1,24 @@
 <!--<view class="bottomGrayboder topSearchbar" data-c_e_id="wx_view_cb07a842">
     <view class="topsearchWrap" data-c_e_id="wx_view_c2045354">
-        <view class="wx-view_cc8qyh" data-c_e_id="wx_view_5e72bf3e">
-            <input class="c-block c-fullwidth wx-input_aN3YXL" data-c_e_id="wx_input688dad1c" name="input1" placeholder="◎搜索商品" placeholder-class="placeholderstyle" type="text"/>
-            <view class="_other_text_BWlAnA" data-c_e_id="_other_text_2cfa57c1">
+        <view class="wx-view" data-c_e_id="wx_view_5e72bf3e">
+            <input class="c-block c-fullwidth wx-input" data-c_e_id="wx_input688dad1c" name="input1" placeholder="◎搜索商品" placeholder-class="placeholderstyle" type="text"/>
+            <view class="_other_text" data-c_e_id="_other_text_2cfa57c1">
                 取消
             </view>
         </view>
     </view>
 </view>
 -->
-<scroll-view class="Wrapscroll-view" data-c_e_id="wx_scroll_view_18790ec8" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto; " upper-threshold="50">
-  <!--<swiper autoplay="True" class="wx-swiper_1NANrl" data-c_e_id="wx_swiperb0e59502" lower-threshold="50">
+<scroll-view class="" data-c_e_id="wx_scroll_view_18790ec8" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto; " upper-threshold="50">
+  <!--<swiper autoplay="True" class="wx-swiper" data-c_e_id="wx_swiperb0e59502" lower-threshold="50">
         <swiper-item class="c-full wx-swiper-item_FzHVfG" data-c_e_id="wx_swiper_item0a22cff2">
-            <navigator class="wx-navigator_oHb4kO2" data-c_e_id="wx_navigator1d201966" hover-class="navigator-hover" url="../detail/detail"/>
+            <navigator class="wx-navigator2" data-c_e_id="wx_navigator1d201966" hover-class="navigator-hover" url="../detail/detail"/>
         </swiper-item>
         <swiper-item class="c-full wx-swiper-item_hVbASy" data-c_e_id="wx_swiper_itemfe1765d4">
-            <navigator class="wx-navigator_oHb4kO" data-c_e_id="wx_navigator_1944013f" hover-class="navigator-hover" url="../detail/detail"/>
+            <navigator class="wx-navigator" data-c_e_id="wx_navigator_1944013f" hover-class="navigator-hover" url="../detail/detail"/>
         </swiper-item>
         <swiper-item class="c-full wx-swiper-item_PQD5ZA" data-c_e_id="wx_swiper_item716c0df2">
-            <navigator class="wx-navigator_oHb4kO3" data-c_e_id="wx_navigator94b7b01f" hover-class="navigator-hover" url="../detail/detail"/>
+            <navigator class="wx-navigator3" data-c_e_id="wx_navigator94b7b01f" hover-class="navigator-hover" url="../detail/detail"/>
         </swiper-item>
     </swiper>
     
@@ -79,7 +79,7 @@
         <view class="_other_text_LxtT2c" data-c_e_id="_other_text_d25ea969">
             热门素材
         </view>
-        <navigator class="bottomGrayboder Panellistitem" data-c_e_id="wx_navigator_af86d451" hover-class="navigator-hover" url="../detail/detail">
+        <navigator class="bottomGrayboder Panellistitem" data-c_e_id="wx_navigator_af86d451" hover-class="navigator-hover" url="../article/article">
             <view class="wx-view_zjJ9We" data-c_e_id="wx_view8414e2c3">
                 <image class="wx-image_SidGqw" data-c_e_id="wx_image_7d20755b" mode="aspectFill" src="http://imgcdn.guoku.com/images/450/613fb66bd206fa2246ae65a71058dd3c.jpeg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/images/450/613fb66bd206fa2246ae65a71058dd3c.jpeg); "/>
             </view>

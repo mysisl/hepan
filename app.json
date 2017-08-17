@@ -1,25 +1,25 @@
 {
-  "debug": true, 
+  "debug": true,
   "window": {
-    "navigationBarTextStyle": "black", 
-    "navigationBarBackgroundColor": "#ebebeb", 
-    "navigationBarTitleText": "云.荐", 
-    "backgroundColor": "#bdbdbd", 
-    "enablePullDownRefresh": true, 
-    "backgroundTextStyle": "dark"
-  }, 
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#298DE5",
+    "navigationBarTitleText": "云.荐",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
   "pages": [
     "page/notify/notify",
-    "page/feature/feature", 
-    "page/discover/discover", 
-    "page/profile/profile", 
-    "page/detail/detail", 
-    "page/baseStyle/baseStyle"
-  ], 
+    "page/feature/feature",
+    "page/discover/discover",
+    "page/profile/profile",
+    "page/detail/detail",
+    "page/baseStyle/baseStyle",
+    "page/article/article"
+  ],
   "tabBar": {
-    "color": "#7F8389", 
-    "selectedColor": "#000000", 
-    "borderStyle": "black", 
+    "color": "#7F8389",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
     "list": [
       {
         "text": "客户",
@@ -28,31 +28,30 @@
         "selectedIconPath": "resources/1c95a1701b58f4dc4d5f768d6f148714.png"
       },
       {
-        "text": "仓库", 
-        "pagePath": "page/discover/discover", 
-        "iconPath": "resources/e12860cb450a4c012c47ac95c933fb3a.png", 
+        "text": "仓库",
+        "pagePath": "page/discover/discover",
+        "iconPath": "resources/e12860cb450a4c012c47ac95c933fb3a.png",
         "selectedIconPath": "resources/f78f9afcd0b4998bdfc816203bb4c6dd.png"
-      }, 
-      
+      },
       {
-        "text": "沟通", 
-        "pagePath": "page/feature/feature", 
-        "iconPath": "resources/9a68600a4eeb9fb2b9173d901e704971.png", 
+        "text": "沟通",
+        "pagePath": "page/article/article",
+        "iconPath": "resources/9a68600a4eeb9fb2b9173d901e704971.png",
         "selectedIconPath": "resources/1f2fab45b574b53079a632db488cf240.png"
-      }, 
+      },
       {
-        "text": "个人", 
-        "pagePath": "page/profile/profile", 
-        "iconPath": "resources/f27bd7cf9958fc5000f18d7f19714c96.png", 
+        "text": "个人",
+        "pagePath": "page/profile/profile",
+        "iconPath": "resources/f27bd7cf9958fc5000f18d7f19714c96.png",
         "selectedIconPath": "resources/a0d0f70cdd378be88638c61a9cfff0f7.png"
       }
-    ], 
+    ],
     "backgroundColor": "#F7F7FA"
-  }, 
+  },
   "networkTimeout": {
-    "connectSocket": "", 
-    "request": "", 
-    "downloadFile": "", 
+    "connectSocket": "",
+    "request": "",
+    "downloadFile": "",
     "uploadFile": ""
   }
 }
